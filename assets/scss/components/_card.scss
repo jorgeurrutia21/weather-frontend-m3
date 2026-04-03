@@ -1,0 +1,27 @@
+@mixin card-hover {
+    cursor: pointer;
+    transition:
+        transform 0.4s,
+        box-shadow 0.4s;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.card {
+    &--ciudad {
+        @include card-hover;
+    }
+
+    &__img {
+        height: 297px;
+        object-fit: cover;
+        transition: transform 0.4s;
+    }
+
+    &--ciudad:hover &__img {
+        transform: scale(1.05);
+    }
+}
