@@ -19,15 +19,13 @@ Se seleccionaron 10 ciudades representativas de Chile (norte, centro y sur) pasa
 
 ## Estructura del proyecto (SASS)
 
-El proyecto utiliza SASS organizado en parciales para mantener el código modular y escalable:
+Se utiliza una estructura modular basada en el patrón 7-1 simplificado:
 
-- \_variables.scss → Variables globales (colores, tipografías, tamaños, espaciados)
-- \_mixins.scss → Mixins reutilizables
-- \_base.scss → Estilos base / reset general
-- \_layout.scss → Estructura (header, footer, grid, contenedores)
-- \_components.scss → Componentes reutilizables (botones, cards, formularios)
-- \_pages.scss → Estilos específicos por vista
-- main.scss → Archivo principal que importa todos los parciales
+abstracts/ → variables y mixins
+base/ → estilos globales
+components/ → componentes reutilizables (cards, etc.)
+layout/ → estructura (navbar, footer)
+styles.scss → archivo principal que importa todo
 
 Esta estructura facilita el mantenimiento, la reutilización y la escalabilidad del proyecto.
 
