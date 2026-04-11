@@ -7,8 +7,10 @@
     }
 
     &__img {
-        height: 297px;
+        width: 100%;
+        height: 250px;
         object-fit: cover;
+        display: block;
         transition: transform 0.4s;
     }
 
@@ -31,4 +33,14 @@
             padding: 2rem;
         }
     }
+}
+
+//se AGREGO ESTA CLASE PARA AJUSTAR LA IMAGEN DE LA SECCION DETALLE
+.detalle__img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }

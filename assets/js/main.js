@@ -188,8 +188,8 @@ function renderDetalle(id) {
    
     <div class="row">
     
-        <div class="col-12 col-md-6 col-lg-6">
-            <img src="${ciudad.imagen}" class="img-fluid rounded" />
+        <div class="col-12 col-md-6 col-lg-6 d-flex">
+            <img src="${ciudad.imagen}" class="detalle__img" />
         </div>
         <div class="col-12 col-md-6 col-lg-4">
             <h2>${ciudad.ciudad}</h2>
