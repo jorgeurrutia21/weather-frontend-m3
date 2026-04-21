@@ -84,8 +84,7 @@ Esta estructura facilita el mantenimiento, la reutilización y la escalabilidad 
 Para ejecutar este proyecto de manera local:
 
 1. Clonar o descargar el repositorio:  
-   https://github.com/jorgeurrutia21/weather-frontend-m3
-
+   https://github.com/jorgeurrutia21/weather-frontend-m4
 2. Abrir la carpeta del proyecto
 
 3. Ejecutar el archivo index.html en un navegador web  
