@@ -1,10 +1,50 @@
-# Weather Frontend M3
+# Weather Frontend M4
 
 ## Este proyecto corresponde a una plataforma web orientada a mostrar el estado del tiempo en distintas ciudades de Chile, presentando la información de manera clara, ordenada y accesible para el usuario.
 
 ## Ciudades incluidas
 
-Se seleccionaron 10 ciudades representativas de Chile (norte, centro y sur) pasando desde Antofagasta hasta Punta Arenas con el objetivo de mostrar la diversidad de climas a lo largo del territorio.
+Se seleccionaron 10 ciudades representativas de Chile (norte, centro y sur) pasando desde Antofagasta hasta Punta Arenas con el objetivo de
+mostrar la diversidad de climas a lo largo del territorio.
+
+---
+
+## Los datos estan organizados de la siguiente manera:
+
+estan definidos en JavaScript en un arreglo llamado "lugares".
+
+Cada lugar es un objeto que contiene:
+
+- id
+- nombre
+- temperatura actual
+- estado del clima actual
+- pronóstico semanal
+
+El pronóstico semanal es un arreglo con:
+
+- día
+- temperatura mínima
+- temperatura máxima
+- estado del clima
+
+---
+
+## Estadísticas que calcula la app
+
+En la vista de detalle, la aplicación calcula automáticamente:
+
+- Temperatura mínima de la semana
+- Temperatura máxima de la semana
+- Temperatura promedio
+- Cantidad de días soleados, nublados y lluviosos
+- Un resumen de la semana (por ejemplo: “Semana mayormente soleada”)
+
+Estos datos se calculan usando JavaScript, recorriendo el arreglo del pronóstico.
+
+## Seguridad JavaScript
+
+Se elimino por completo el uso de innerHTML , dando paso al uso de textContent ,createElement ,appenChild, etc. Asegurandonos de la no insercion directa de HTML en JS siendo menos propenso a ataques XSS.
 
 ---
 
@@ -12,7 +52,7 @@ Se seleccionaron 10 ciudades representativas de Chile (norte, centro y sur) pasa
 
 - HTML
 - CSS (Metodología BEM)
-- JavaScript
+- JavaScript(Metodologia para la seguridad del Dom)
 - SASS
 
 ---
