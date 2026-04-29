@@ -181,6 +181,88 @@ const lugares = [
     },
 ];
 
+// const lugares = [
+//     {
+//         id: 1,
+//         nombre: "Santiago",
+//         imagen: "assets/img/santiago5.jpg",
+//         lat: -33.45,
+//         lon: -70.66,
+//     },
+
+//     {
+//         id: 2,
+//         nombre: "Valparaiso",
+//         imagen: "assets/img/valparaiso4.jpg",
+//         lat: -33.04,
+//         lon: -71.62,
+//     },
+
+//     {
+//         id: 3,
+//         nombre: "Concepcion",
+//         imagen: "assets/img/concepcion2.jpg",
+//         lat: -36.82,
+//         lon: -73.05,
+//     },
+
+//     {
+//         id: 4,
+//         nombre: "La Serena",
+//         imagen: "assets/img/laserena2.jpg",
+//         lat: -29.9,
+//         lon: -71.25,
+//     },
+
+//     {
+//         id: 5,
+//         nombre: "Antofagasta",
+//         imagen: "assets/img/antofagasta2.jpg",
+//         lat: -23.65,
+//         lon: -70.4,
+//     },
+
+//     {
+//         id: 6,
+//         nombre: "Temuco",
+//         imagen: "assets/img/temuco3.jpg",
+//         lat: -38.74,
+//         lon: -72.6,
+//     },
+
+//     {
+//         id: 7,
+//         nombre: "Puerto Montt",
+//         imagen: "assets/img/puertomontt2.jpg",
+//         lat: -41.47,
+//         lon: -72.94,
+//     },
+
+//     {
+//         id: 8,
+//         nombre: "Punta Arenas",
+//         imagen: "assets/img/puntaarenas2.jpg",
+//         lat: -53.16,
+//         lon: -70.91,
+//     },
+
+//     {
+//         id: 9,
+//         nombre: "Iquique",
+//         imagen: "assets/img/iquique4.jpg",
+//         lat: -20.23,
+//         lon: -70.14,
+//     },
+
+//     {
+//         id: 10,
+//         nombre: "Rancagua",
+//         imagen: "assets/img/rancagua.jpg",
+//         lat: -34.17,
+//         lon: -70.74,
+//     },
+// ];
+
 function obtenerLugarPorId(id) {
     return lugares.find((l) => l.id === id) || null; //busca por id
 }
